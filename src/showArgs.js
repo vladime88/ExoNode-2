@@ -3,6 +3,6 @@
 console.log(showArgs)
 */
 let i
-for (i = 5; i > 1; i--) {
+for (i = process.argv.length - 1; i > 1; i--) {
     console.log(process.argv[i])
 }
